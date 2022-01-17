@@ -1,0 +1,466 @@
+/* ========== INDIVIDUAL INGREDIENTS ==========
+
++ Theme name: App Lab
++ Theme description: HTML, CSS, JS, Bootstrap v5.0
++ PSD web template name: App Lab
++ PSD web template source: Freebiesbug
++ Author: Do Kim Phuong
++ Version: 1.0
+
+---------- Table of Contents ----------
+1. Header 
+2. Banner
+3. Features
+    3.1. Brand
+    3.2. Feature
+    3.3. Smart Jackpot
+    3.4. Design
+4. Pricing
+    4.1. Choose
+    4.2. Ulimate Feature
+5. Tetisminial 
+    5.1. Satisfaction
+    5.2. FAQ
+6. Download App
+    6.1. Download
+7. Footer
+*/
+
+
+/* =================================== */
+
+
+/*  1. Header
+/* =================================== */
+
+#site-header {
+    transition: all .5s;
+    background-color: var(--bs-white);
+    padding: 10px 0;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 4px;
+    z-index: 99;
+}
+
+.nav-logo h3 {
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 0;
+}
+
+.nav__menu>ul {
+    margin-bottom: 0;
+    list-style: none;
+    padding-left: 0;
+}
+
+.nav-menu .nav-link {
+    color: var(--text-color-bold);
+    font-size: 16px;
+    padding: 0 18px;
+}
+
+.nav-menu .nav-link.active-link {
+    color: var(--bs-primary);
+}
+
+.navbar-btn {
+    margin-left: 12px;
+}
+
+.nav-menu-toogle {
+    color: var(--text-color);
+    font-size: 20px;
+}
+
+.show-menu {
+    top: calc(var(--header-height-mobile) + 12px);
+}
+
+
+/* .brand-section {
+    background-color: black;
+} */
+
+
+/* =================================== */
+
+
+/*  2. Banner
+/* =================================== */
+
+#banner {
+    background: url(../img/common-img/banner.png) center / cover no-repeat;
+    padding-top: 20px;
+}
+
+.banner-tag {
+    background-color: var(--bs-gray-light);
+    display: inline-flex;
+    align-items: center;
+    border-radius: 18px;
+}
+
+.banner-tag__icon {
+    padding: 5px 7px;
+    background-color: var(--bs-orange-light);
+    border-radius: 18px;
+}
+
+.banner-tag__label {
+    font-size: 14px;
+    padding-right: 40px;
+    line-height: 28px;
+    margin-left: 8px;
+    color: var(--text-color-bold);
+}
+
+.banner-item .paragraph {
+    margin: 25px 0 35px;
+}
+
+.banner-link__btn,
+.banner-link__item {
+    font-size: 14px;
+}
+
+.banner-link__item {
+    color: var(--bs-primary);
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+
+/* =================================== */
+
+
+/*  3. Features
+/* =================================== */
+
+
+/* ====== 3.1. Brand ====== */
+
+.brand-heading {
+    font-size: 14px;
+    font-weight: 400;
+    color: var(--text-color-bold);
+}
+
+.brand-icon {
+    padding-top: 40px;
+}
+
+.slick-initialized .slick-slide.brand-img {
+    display: flex;
+    justify-content: center;
+}
+
+
+/* ====== 3.2. Feature ====== */
+
+.feature-list {
+    margin-top: 60px;
+}
+
+.feature-item {
+    margin-bottom: 30px;
+}
+
+.feature-item__content {
+    margin-left: 30px;
+    flex: 1;
+}
+
+
+/* ====== 3.3. Smart Jackpot ====== */
+
+.smart-jackpot-item {
+    padding: 20px;
+}
+
+.smart-jackpot-icon {
+    margin-bottom: 20px;
+}
+
+
+/* ====== 3.4. Design ====== */
+
+.design-item .paragraph {
+    margin: 30px 0;
+}
+
+
+/* =================================== */
+
+
+/*  4. Pricing
+/* =================================== */
+
+
+/* ====== 4.1. Choose ====== */
+
+.choose-item {
+    margin-bottom: 40px;
+}
+
+
+/* ====== 4.2. Ultimate Feature ====== */
+
+.ulti-heading {
+    width: 60%;
+}
+
+.ulti-feature-img {
+    padding-right: 0;
+}
+
+.ulti-feature-item {
+    margin-bottom: 40px;
+}
+
+
+/* ====== 4.3. Price ====== */
+
+.price-tabs {
+    text-align: center;
+    display: inline-block;
+    font-size: 14px;
+    color: var(--text-color-100);
+    border: 1px solid var(--bs-border-100);
+    border-radius: 30px;
+    padding: 2px;
+}
+
+.price-tabs .tab-item {
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 30px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.tab-item.active {
+    background-color: var(--bs-blue);
+    color: var(--bs-white);
+    font-weight: 700;
+}
+
+.price-item.active {
+    border: none;
+    box-shadow: 0px 23px 28px 5px #edf0f3;
+}
+
+.price-list {
+    margin-top: 50px;
+}
+
+.price-item {
+    border: 1px solid var(--bs-border-100);
+    border-radius: 9px;
+}
+
+.price-heading {
+    border-top-left-radius: 9px;
+    border-top-right-radius: 9px;
+    padding-top: 60px;
+    padding-bottom: 40px;
+    background-image: linear-gradient(#fdfdfe, #f5f7fa);
+}
+
+.total-price__number {
+    font-size: 50px;
+    font-weight: 600;
+    color: var(--text-color-bold);
+}
+
+.total-price__unit {
+    font-size: 14px;
+    color: var(--text-color-100);
+}
+
+.price-body {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.price-service .paragraph {
+    padding: 15px 0;
+    color: var(--text-color-100);
+}
+
+.price-link {
+    color: var(--bs-primary);
+    font-size: 14px;
+    text-decoration: none;
+    display: block;
+    margin-top: 20px;
+}
+
+
+/* =================================== */
+
+
+/*  5. Testiminial
+/* =================================== */
+
+
+/* ====== 5.1. Satisfaction ====== */
+
+.satisfaction-img {
+    padding-left: 0;
+}
+
+.satisfaction-review {
+    margin: 20px 0 25px 0;
+}
+
+.satisfaction-rating span {
+    color: var(--bs-yellow);
+    font-size: 14px;
+}
+
+.satisfaction-carousel {
+    margin-top: 40px;
+}
+
+.review-item {
+    display: flex;
+    align-items: center;
+}
+
+.review-info {
+    margin-left: 20px;
+}
+
+.review-info p {
+    font-size: 14px;
+}
+
+.review-name {
+    color: var(--text-color-bold);
+    font-weight: 600;
+    margin-bottom: 8px;
+}
+
+.review-position {
+    color: var(--text-color);
+    margin-bottom: 0;
+}
+
+
+/* ====== 5.2. FAQ ====== */
+
+.faq-collapse {
+    margin-top: 40px;
+}
+
+.faq-item {
+    background-color: #f5f7fa;
+    margin-bottom: 12px;
+    padding: 15px 40px;
+}
+
+.faq-toggle {
+    font-size: 16px;
+    font-weight: 600;
+    color: var(--text-color-bold);
+    background-color: transparent;
+    border: none;
+    outline: none;
+    padding: 8px 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+}
+
+.faq-content {
+    position: relative;
+    height: 0;
+    overflow: hidden;
+    transition: all .6s;
+}
+
+
+/* =================================== */
+
+
+/*  6. Download App
+/* =================================== */
+
+
+/* ====== 6.1. Download ====== */
+
+.download-section {
+    margin-top: 12px;
+}
+
+.download-at {
+    margin-top: 30px;
+}
+
+.download-at img {
+    width: 150px;
+}
+
+.download-at img:not(:first-child) {
+    margin-left: 12px;
+}
+
+.download-vector {
+    padding-right: 0;
+}
+
+
+/* =================================== */
+
+
+/*  7. Footer
+/* =================================== */
+
+#site-footer {
+    background-color: #09142e;
+    padding: 100px;
+    margin-top: -40px;
+}
+
+.footer-logo h3 {
+    font-size: 30px;
+    color: var(--bs-white);
+    font-weight: 700;
+}
+
+.footer-menu-list,
+.footer-social-list {
+    list-style: none;
+    padding-left: 0;
+    margin-top: 20px;
+}
+
+.footer-menu-list>li,
+.footer-social-list>li {
+    padding: 8px 15px;
+}
+
+.footer-menu-list>li>a {
+    font-size: 14px;
+    color: var(--bs-white);
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.footer-social-list>li>a {
+    font-size: 25px;
+    color: #273043;
+}
+
+.footer-social-list>li>a:hover {
+    color: var(--bs-white);
+}

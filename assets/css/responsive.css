@@ -1,0 +1,179 @@
+/* PC */
+
+@media (min-width:1024px) {
+    .nav-list {
+        display: flex;
+        align-items: center;
+    }
+}
+
+
+/* Mobile & Tablet */
+
+@media (max-width:1024px) {
+    #site-header {
+        padding: 10px 0;
+    }
+    .brand-icon {
+        width: 150px;
+    }
+    .nav__menu {
+        position: fixed;
+        top: -100%;
+        left: 0;
+        right: 0;
+        z-index: 99;
+        width: 90%;
+        margin: 0 auto;
+        background-color: var(--bs-white);
+        box-shadow: 0 0 4px rgb(0 0 0 / 10%);
+        border-radius: 12px;
+        text-align: center;
+    }
+    .nav__menu .nav-list {
+        padding: 30px;
+    }
+    .nav-menu .nav-link {
+        margin-bottom: 20px;
+    }
+    .banner-item h5 {
+        margin-top: 12px;
+    }
+    .brand-icon {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+}
+
+
+/* Tablet */
+
+@media(min-width:740px) and (max-width:1023px) {
+    .navbar-btn.btn {
+        width: 80%;
+    }
+    .main #banner {
+        padding-top: 60px;
+    }
+    #smart-jackpot {
+        padding-top: 40px;
+    }
+    .design-item {
+        margin-top: 50px;
+    }
+    #ulti-feature .ulti-heading {
+        width: unset;
+    }
+    #ulti-feature {
+        padding-top: 40px;
+    }
+    .ulti-feature-img,
+    .satisfaction-item,
+    .download-vector,
+    #download {
+        margin-top: 40px;
+    }
+    .main #banner,
+    .brand-section,
+    .feature-section,
+    .smart-jackpot-section,
+    .design-section,
+    .choose-section,
+    .ulti-item,
+    .price-section,
+    .satisfaction-section,
+    .faq-section,
+    .download-section {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+}
+
+
+/* Mobile */
+
+@media (max-width:739px) {
+    .navbar-btn.btn {
+        padding: 8px;
+        width: 100%;
+        margin-left: 0;
+    }
+    .main #banner,
+    .brand-section,
+    .feature-section,
+    .smart-jackpot-section,
+    .design-section,
+    .choose-section,
+    .ulti-item,
+    .price-section,
+    .satisfaction-section,
+    .faq-section,
+    .download-section {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .main #banner {
+        padding-top: 40px;
+    }
+    .banner-link {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    .banner-link__item {
+        margin-top: 20px;
+    }
+    .section-content {
+        padding-top: 70px;
+    }
+    .feature-item-wrap {
+        margin-top: 20px;
+    }
+    #smart-jackpot {
+        padding-top: 30px;
+    }
+    .design-item {
+        margin-top: 50px;
+    }
+    .design-link__btn,
+    .ulti-btn {
+        width: 100%;
+    }
+    #ulti-feature {
+        padding-top: 40px;
+    }
+    #ulti-feature .ulti-heading {
+        width: unset;
+    }
+    .ulti-feature-item {
+        text-align: center;
+    }
+    .ulti-feature-img,
+    .satisfaction-item,
+    .download-vector {
+        margin-top: 40px;
+    }
+    .price-item {
+        margin-bottom: 25px;
+    }
+    .price-body {
+        padding: 0 12px;
+    }
+    .price-btn {
+        width: 100%;
+        font-size: 14px;
+    }
+    .download-at {
+        justify-content: center;
+    }
+    .main #site-footer {
+        margin-top: -30px;
+        padding: 80px;
+    }
+    .footer-menu-list {
+        flex-direction: column;
+    }
+    .footer-copyright {
+        width: 100%;
+    }
+}

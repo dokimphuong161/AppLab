@@ -1,0 +1,228 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+
+/*===== BASE =====*/
+
+body {
+    font-size: 62.5%;
+    line-height: 1.4rem;
+    font-family: 'Poppins', sans-serif;
+}
+
+.main {
+    overflow: hidden;
+}
+
+.section-content {
+    padding-top: 100px;
+}
+
+.section-border-bt {
+    padding-bottom: 80px;
+    border-bottom: var(--bs-border-color) solid 2px;
+}
+
+
+/*===== VARIABLES =====*/
+
+:root {
+    --text-color-bold: #242f51;
+    --text-color: #616368;
+    --text-color-100: #898a8e;
+    --header-height: 76px;
+    --header-height-mobile: 56px;
+}
+
+
+/*===== TEXT =====*/
+
+.colored-text {
+    color: #fcae61;
+}
+
+.text-color-bold {
+    color: var(--text-color-bold);
+}
+
+.text-color {
+    color: var(--text-color);
+}
+
+.text-color-100 {
+    color: var(--text-color-100);
+}
+
+.text-red-light {
+    color: var(--bs-red-light);
+}
+
+.text-blue-light {
+    color: var(--bs-blue-light);
+}
+
+.text-green-light {
+    color: var(--bs-green-light);
+}
+
+.heading,
+.sub-heading {
+    font-weight: 600;
+    color: var(--text-color-bold);
+}
+
+.sub-heading {
+    font-size: 30px;
+}
+
+.paragraph-title {
+    font-weight: 600;
+}
+
+.paragraph {
+    color: var(--text-color);
+    font-size: 14px;
+    margin-bottom: 0;
+}
+
+
+/*===== BUTTON =====*/
+
+.btn--15-40 {
+    font-weight: 700;
+    padding: 15px 40px;
+}
+
+.btn--10-50 {
+    font-weight: 700;
+    padding: 10px 50px;
+}
+
+
+/*===== IMAGE ICON =====*/
+
+.bg-icon {
+    padding: 12px;
+    border-radius: 50px;
+    display: inline-block;
+}
+
+.bg-icon img {
+    width: 50px;
+}
+
+.bg-red-100 {
+    background-color: var(--bs-red-100);
+}
+
+.bg-red-200 {
+    background-color: var(--bs-red-100);
+}
+
+.bg-blue-100 {
+    background-color: var(--bs-blue-100);
+}
+
+.bg-blue-200 {
+    background-color: var(--bs-blue-200);
+}
+
+.bg-green-100 {
+    background-color: var(--bs-green-100);
+}
+
+.bg-orange-100 {
+    background-color: var(--bs-orange-100);
+}
+
+
+/*===== CAROUSEL =====*/
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: #eff3f8;
+    border-radius: 30px;
+    width: unset;
+    height: unset;
+    line-height: 0;
+    padding: 15px;
+}
+
+.carousel-control-prev-icon i,
+.carousel-control-next-icon i {
+    color: var(--text-color-100);
+    font-size: 14px;
+}
+
+.carousel-control-prev {
+    right: 55px;
+    left: unset;
+}
+
+.seperate {
+    position: absolute;
+    top: 0;
+}
+
+
+/*===== COLLAPSE =====*/
+
+.panel-default>.panel-heading+.panel-collapse>.panel-body {
+    background-color: #f5f7fa;
+}
+
+.panel-default>.panel-heading {
+    background-color: #f5f7fa;
+}
+
+
+/*===== GO TO TOP =====*/
+
+.goto-top:link,
+.goto-top:visited {
+    position: fixed;
+    right: 2%;
+    bottom: 8%;
+    padding: 6px 15px 8px;
+    border-radius: 12px;
+    background: var(--bs-primary);
+    box-shadow: 4px 6px 15px 0 rgb(0 0 0 / 8%);
+    visibility: hidden;
+    cursor: pointer;
+    transition: 0.3s;
+    animation: bounce 2s ease-in-out infinite;
+}
+
+.show-top:link,
+.show-top:visited {
+    visibility: visible;
+    z-index: 1999;
+}
+
+.goto-top svg {
+    width: 15px;
+    height: 15px;
+    fill: var(--bs-blue-100);
+}
+
+.goto-top:hover {
+    background: var(--bs-white);
+    box-shadow: 0 0 10px rgb(0 0 0 / 40%)
+}
+
+.goto-top:hover svg {
+    fill: var(--bs-primary);
+}
+
+
+/*===== ANIMATION =====*/
+
+@keyframes bounce {
+    0% {
+        transform: scale(0.5);
+    }
+    50% {
+        transform: scale(1.2);
+    }
+    0% {
+        transform: scale(1);
+    }
+}
